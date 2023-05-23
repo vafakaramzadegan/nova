@@ -12,6 +12,53 @@ Nova offers a range of features that can be customized through the env file. The
 - Customizing the assistant's name and trigger phrase
 - Setting the assistant's listening timeout
 
+## Installation
+Before getting started, please make sure that you have already installed the required prerequisites on your computer. You can do this by running the following commands on your terminal:
+
+```
+sudo apt update
+sudo apt install portaudio19-dev python3-pyaudio
+sudo apt install ffmpeg
+```
+Once the prerequisites are installed, you can proceed with setting up the program by following the steps below:
+
+1. Clone the repository on your local machine by running the following command on your terminal:
+
+   ```
+   git clone https://github.com/vafakaramzadegan/nova.git
+   ```
+   
+2. Navigate to the project directory by running the following command:
+
+   ```
+   cd nova
+   ```
+   
+3. Create a virtual environment for the project by running the following command:
+
+   ```
+   python3 -m venv venv
+   ```
+   
+4. Activate the virtual environment:
+
+   ```
+   source ./venv/bin/activate
+   ```
+   
+5. Install the requirements for the project by running the following command:
+
+   ```
+   pip3 install -r requirements.txt
+   ```
+   
+6. You can now run the program by executing the following command:
+
+   ```
+   python3 <file_name>.py
+   ```
+
+
 ## Contribution Guidelines
 
 If you would like to contribute to Nova, please follow these steps:
