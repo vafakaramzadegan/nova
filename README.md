@@ -55,7 +55,7 @@ Once the prerequisites are installed, you can proceed with setting up the progra
 6. You can now run the program by executing the following command:
 
    ```
-   python3 <file_name>.py
+   python3 main.py
    ```
 
 
